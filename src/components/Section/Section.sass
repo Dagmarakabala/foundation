@@ -1,0 +1,29 @@
+.section
+  display: block
+  width: 100%
+
+  img
+    margin: auto
+    width: 100%
+    object-fit: contain
+
+.progress-meter
+  width: 30%
+
+.media-object
+  +max($bp-xs)
+    flex-wrap: wrap
+
+.media-object-section
+  width: 50%
+  +max($bp-xs)
+    width: 100%
+    text-align: center
+    &:first-child
+      padding: 0
+  
+  span
+    margin-right: 3px
+
+.responsive-embed
+  margin: 0px
